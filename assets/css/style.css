@@ -606,6 +606,7 @@ img[data-src]{
 
 .img-fix-container > img{
 	border-radius: 25%;
+	margin-bottom: -7px;
 }
 
 
