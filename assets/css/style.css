@@ -94,6 +94,7 @@ html,body{
 	position: relative;
 }
 
+
 /*FONTES*/
 
 
@@ -160,6 +161,78 @@ html,body{
 @font-face{
 	font-family: "GT America Light";
 	src: url('../fonts/GT-America-Trial-Compressed-Light.otf');
+}
+
+@font-face{	
+	font-family: "GothamNarrow-Black";
+	src: url('../fonts/GothamNarrow-Black.otf');
+}
+
+@font-face{	
+	font-family: "GothamNarrow-Bold";
+	src: url('../fonts/GothamNarrow-Bold.otf');
+}
+
+@font-face{	
+	font-family: "GothamNarrow-Book";
+	src: url('../fonts/GothamNarrow-Book.otf');
+}
+
+@font-face{	
+	font-family: "GothamNarrow-Light";
+	src: url('../fonts/GothamNarrow-Light.otf');
+}
+
+@font-face{	
+	font-family: "GothamNarrow-Medium";
+	src: url('../fonts/GothamNarrow-Medium.otf');
+}
+
+@font-face{	
+	font-family: "GothamNarrow-Thin";
+	src: url('../fonts/GothamNarrow-Thin.otf');
+}
+
+@font-face{	
+	font-family: "GothamNarrow-Ultra";
+	src: url('../fonts/GothamNarrow-Ultra.otf');
+}
+
+@font-face{	
+	font-family: "GothamNarrow-XLight";
+	src: url('../fonts/GothamNarrow-XLight.otf');
+}
+
+.gothamn_black{
+	font-family: "GothamNarrow-Black";
+}
+
+.gothamn_bold{
+	font-family: "GothamNarrow-Bold";
+}
+
+.gothamn_book{
+	font-family: "GothamNarrow-Book";
+}
+
+.gothamn_light{
+	font-family: "GothamNarrow-Light";
+}
+
+.gothamn_medium{
+	font-family: "GothamNarrow-Medium";
+}
+
+.gothamn_thin{
+	font-family: "GothamNarrow-Thin";
+}
+
+.gothamn_ultra{
+	font-family: "GothamNarrow-Ultra";
+}
+
+.gothamn_xlight{
+	font-family: "GothamNarrow-XLight";
 }
 
 .gtamerica_l{
@@ -278,9 +351,11 @@ span.titulo{
 	opacity: 0;
 }
 
-p.html5{
+p.artigo{
 	text-align: justify;
-	font-size: 20pt;
+	font-size: 13pt;
+	letter-spacing: 2px;
+	line-height: 1.7em;
 	opacity: 0;
 }
 
