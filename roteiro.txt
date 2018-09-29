@@ -1,0 +1,41 @@
+TÓPICOS HTML 5
+
+ - Versão HTML 5 (Doctype)
+ - Abrir e fechar tags;
+ - Head;
+ - Title;
+ - Body;
+ - Topologias;
+ - Textos;
+ - font;
+ - Span;
+ 	- &nbsp (no blank space);
+ - Quebra de linha;
+ - Links;
+ 	- ID;
+ 	- Outras páginas;
+ 	- Target;
+ - Tabelas;
+ 	- THead;
+ 	- TBody;
+ 	- Th;
+ 	- Tr;
+ 	- Td;
+ - Listas
+ 	- Ul;
+ 	- Ol;
+ 	- li;
+ - Div;
+ - Nav;
+ - Section;
+ - Imagem;
+ - Footer;
+ - Favicon;
+ - Meta;
+ - Audio;
+ - Video;
+ - Marquee; (obsleto)
+
+
+
+ Bibiografia cômica: https://www.roverinformatica.com.br/
