@@ -27,9 +27,9 @@ html,body{
 	min-height: 50%;
 }
 
-/* .row{
+.row{
 	margin: 0 !important;
-} */
+}
 
 .bg-ng-1{
 	background-image: url("../img/nina_geometrieva1.png");
@@ -595,9 +595,41 @@ img[data-src]{
 	filter: blur(7px);
 }
 
+@media screen and (max-width: 640px){
+	.img-container{
+		position: absolute;
+		z-index: -1;
+		opacity: .5;
+	}
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1200px){
+	section.historico .m7{
+		box-shadow: -5px 0 10px rgba(0, 0, 0, .5);
+	}
+	.img-container{
+		/* z-index: -1; */
+		overflow: visible !important;
+	}
+}
+
+section.historico .m7{
+	padding: 10% 0;
+	max-height: 1280px;
+	direction: rtl;
+	transition: all ease .5s;
+	background-color: rgba(255, 255, 255, .9);
+	position: relative;
+}
+
+section.historico{
+	overflow: hidden;
+}
+
 .img-container{
 	width: 100%;
 	overflow: hidden;
+	margin-bottom: -7px;
 }
 
 .img-container > .img-fix-container{
@@ -606,6 +638,11 @@ img[data-src]{
 
 .img-fix-container > img{
 	border-radius: 25%;
+}
+
+section.historico .m7{
+	max-height: 1280px;
+	overflow-x: hidden;
 }
 
 
@@ -727,6 +764,18 @@ html::-webkit-scrollbar-track-piece{
 
 .menu::-webkit-scrollbar-thumb{
 	background-color: var(--main-bg);
+	border-radius: 10px 10px 10px 10px;
+}
+
+section.historico .m7::-webkit-scrollbar{
+	width: 3px;
+	background-color: transparent;
+	display: block;
+	margin-right: 3%;
+}
+
+section.historico .m7::-webkit-scrollbar-thumb{
+	background-color: transparent;
 	border-radius: 10px 10px 10px 10px;
 }
 

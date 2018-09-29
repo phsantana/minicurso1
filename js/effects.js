@@ -14,3 +14,26 @@ function showOnScroll(){
 		}
 	});
 }
+
+function shaddowContainer(container,element1,element2){
+
+	var limiar = Math.abs(element2.scrollHeight*0.2);
+
+	if(limiar > element1.scrollTop){
+
+		if(window.innerWidth >= 641 && window.innerWidth <= 1200){
+			container.style.boxShadow = "-5px 0 10px rgba(0, 0, 0, .5), 0 -5px 50px -10px rgba(0, 0, 0, .5) inset";
+		}
+		else{
+			container.style.boxShadow = "0 -5px 50px -10px rgba(0, 0, 0, .5) inset";
+		}
+	}
+	else{
+		if(window.innerWidth >= 641 && window.innerWidth <= 1200){
+			container.style.boxShadow = "-5px 0 10px rgba(0, 0, 0, .5)";
+		}
+		else{
+			container.style.boxShadow = "none";
+		}
+	}
+}

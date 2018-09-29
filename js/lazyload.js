@@ -2,12 +2,19 @@ window.onload = () => {
 	showOnScroll();
 	lazyload();
 	bgLazyLoad();
+
+	// document.querySelector("section.historico .m7").addEventListener("scroll", function(){
+	// 	shaddowContainer(this,this,document.querySelector("p.artigo").parentElement.lastElementChild)
+	// });
 }
+
 window.onscroll = () => {
+	// shaddowContainer(document.querySelector("section.historico .m7"),document.querySelector("section.historico .m7"),document.querySelector("p.artigo").parentElement.lastElementChild);
 	showOnScroll();
 	lazyload();
 	bgLazyLoad();
 }
+
 
 
 function lazyload(){
@@ -24,7 +31,8 @@ function lazyload(){
 				else
 					img.style.animation = "fadeInLeft .5s ease-out";
 
-				img.parentNode.removeChild(img.nextElementSibling);
+				if(img.nextElementSibling)
+					img.parentNode.removeChild(img.nextElementSibling);
 			}
 		}
 	});
