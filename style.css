@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	outline: 0;
+}
+
+@font-face{
+	font-family: "Poiret_One";
+	src: url('assets/fonts/PoiretOne-Regular.TTF');
+}
+
+@font-face{
+	font-family: Brandon_thin;
+	src: url('assets/fonts/Brandon_thin.otf');
+}
+
+@font-face{
+	font-family: Brandon_regular;
+	src: url('assets/fonts/Brandon_reg.otf');
+}
+
+@font-face{
+	font-family: "Brandon_bld";
+	src: url('assets/fonts/Brandon_bld.otf');
+}
+
+@font-face{
+	font-family: "Brandon_med";
+	src: url('assets/fonts/Brandon_med.otf');
+}
+
+@font-face{
+	font-family: "Brandon_light";
+	src: url('assets/fonts/Brandon_light.otf');
+}
+
+@font-face{	
+	font-family: "Levenim";
+	src: url('assets/fonts/lvnm.ttf');
+}
+
+.levenim{
+	font-family: Levenim;
+}
+
+.brandon_r{
+	font-family: Brandon_regular;
+}
+
+.brandon_t{
+	font-family: Brandon_thin;
+}
+
+.brandon_n{
+	font-family: Brandon_bld;
+}
+
+.brandon_m{
+	font-family: Brandon_med;
+}
+
+.brandon_l{
+	font-family: Brandon_light;
+}
+
+:root{
+	--height-pattern: 100px;
+}
+
+html,body{
+	height: 100%;
+}
+
+div.full-screen{
+	min-height: 100%;
+	position: relative;
+}
+
+.bg-tunes{
+	background-image: url('assets/img/thatsAllFolks.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav.nav-menu{
+	height: var(--height-pattern);
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 20px;
+	background-color: rgba(0, 0, 0, .6);
+	position: fixed;
+}
+
+.nav-menu > .logo-container{
+	height: inherit;
+	display: block;
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+}
+
+.logo-container > .logo{
+	height: inherit;
+	cursor: pointer;
+	transition: all ease .3s;
+}
+
+.logo-container > .logo:hover{
+	height: inherit;
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: all ease .3s;
+}
+
+ul.top-menu{
+	height: inherit;
+	position: relative;
+	line-height: var(--height-pattern);
+	float: right;
+}
+
+ul.top-menu > li.sub-menu{
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	margin: 0 30px;
+	height: inherit;
+}
+
+li.sub-menu > a{
+	position: relative;
+	font-size: 16pt;
+	margin: auto 0;
+	text-decoration: none;
+	color: white;
+	transition: all ease .3s;
+}
+
+li.sub-menu > a:hover{
+	text-shadow: 0px 0px 25px white;
+	transition: all ease .3s;
+}
+
+div.input-container{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+input[type='radio']{
+	display: none;
+}
+
+input[type='radio'] + label{
+	display: inline-block;
+	margin: 0 10px;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: white;
+	cursor: pointer;
+}

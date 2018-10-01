@@ -29,6 +29,7 @@ TÓPICOS HTML 5
  - Nav;
  - Section;
  - Imagem;
+ - Input
  - Footer;
  - Favicon;
  - Meta;
@@ -36,6 +37,75 @@ TÓPICOS HTML 5
  - Video;
  - Marquee; (obsleto)
 
+-------------------------------------------------------
 
+TÓPICOS CSS 3
+
+	- História do CSS;
+	- Seletores;
+	- Propriedades;
+	- Valores;
+	- Hierarquia;
+		- Descendência;
+		- >;
+		- +;
+	- Cores;
+		- RGB;
+		- Hexadecimal;
+		- HUE;
+		- Transparência (canal alpha);
+	- Box-Model;
+	- Padding;
+	- Border;
+		- Radius;
+	- Margin;
+	- Font;
+		- Color;
+		- Text-align;
+		- Font Family;
+		- Font size;
+		- Letter spacing;
+		- text-shadow;
+	- Background;
+		- Background-size;
+		- Background-position;
+		- Background-color;
+		- Background-image;
+		- Repeat;
+	- Display;
+		- Block;
+		- Inline;
+		- Inline-block;
+	- Position;
+		- Relative;
+		- Absolute;
+		- Fixed;
+	- Dimensões
+		- Width;
+		- Height;
+		- max-height e max-width;
+		- min-height e min-width;
+	- Opacidade e visibilidade;
+	- Overflow;
+	- Cursor;
+	- Transition;
+	- Pseudoclasses;
+		- hover;
+		- focus;
+		- active;
+		- visited;
+		- root;
+		- Checked;
+		- not;
+		- first-child e last-child;
+		- nth-child;
+	- input;
+	- tabela;
+	- lista;
+	- box-shadow;
+	- ScrollBar;
+	- Variáveis;
+	- Transform;
+	- Animações;
 
  Bibiografia cômica: https://www.roverinformatica.com.br/
