@@ -160,6 +160,28 @@ input[type='radio'] + label{
 	width: 15px;
 	height: 15px;
 	border-radius: 50%;
-	background-color: white;
 	cursor: pointer;
+	border: 3px solid white;
+}
+
+input[type='radio']:not(:checked) + label{
+	background-color: transparent;
+}
+
+input[type='radio']:checked + label{
+	background-color: white;
+	animation: click .2s ease;
+}
+
+.slider-container > img.slide{
+
+}
+
+@keyframes click{
+	from{
+		transform: scale(.1);
+	}
+	to{
+		transform: scale(1);
+	}
 }
