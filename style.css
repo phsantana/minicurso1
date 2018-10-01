@@ -72,8 +72,13 @@ html,body{
 	height: 100%;
 }
 
-div.full-screen{
+.full-screen{
 	min-height: 100%;
+	position: relative;
+}
+
+.half-screen{
+	min-height: 50%;
 	position: relative;
 }
 
@@ -173,8 +178,38 @@ input[type='radio']:checked + label{
 	animation: click .2s ease;
 }
 
-.slider-container > img.slide{
+.slider-container img.slide{
+	min-height: 100%;
+	width: 100%;
+	/* position: absolute;
+	top: 0; */
+}
 
+div#sobre{
+	background-color: black;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.sobre{
+	display: inline-block;
+	width: 50%;
+	border-collapse: collapse;
+	border: 1px solid;
+	border: 1px solid white;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.sobre > .img-container{
+	position: relative;
+	background-color: white;
+}
+
+div.profile-container{
+	position: relative;
+	margin: 0 auto;
+	border-radius: 50%;
 }
 
 @keyframes click{
