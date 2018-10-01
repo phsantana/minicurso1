@@ -638,6 +638,7 @@ section.historico{
 
 .img-fix-container > img{
 	border-radius: 25%;
+	margin-bottom: -7px;
 }
 
 section.historico .m7{
